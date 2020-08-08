@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-08-08T20:49:30.709Z</updated>
+  <updated>2020-08-08T21:26:29.582Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/08/09/aria_blog/"/>
     <id>http://yoursite.com/2020/08/09/aria_blog/</id>
     <published>2020-08-08T19:56:31.814Z</published>
-    <updated>2020-08-08T20:49:30.709Z</updated>
+    <updated>2020-08-08T21:26:29.582Z</updated>
     
     <content type="html"><![CDATA[<p>this article is to record how to deploy hexo  blog with aria theme building</p><ol><li><p>install/reinstall nodejs.exe  &amp;  cmder | git</p></li><li><p>create a folder &amp; cmder/git bash here,input the follow cmd</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros">npm i -g hexo&amp;hexo init&amp;npm install --save hexo-renderer-njucks hexo-renderer-stylus hexo-generator-search hexo-generator-feed&amp;hexo new<span class="hljs-built_in"> page </span>categories&amp;hexo new<span class="hljs-built_in"> page </span>tags&amp;hexo new<span class="hljs-built_in"> page </span>about&amp;git init&amp;git<span class="hljs-built_in"> config </span>--global user.name <span class="hljs-string">&#x27;wuwao1&#x27;</span>&amp;git<span class="hljs-built_in"> config </span> --global user.email <span class="hljs-string">&#x27;2224543304@qq.com&#x27;</span><br></code></pre></td></tr></table></figure></li><li><p>article path  :source/_posts</p></li><li><p>theme :<a href="https://github.com/AlynxZhou/hexo-theme-aria">ARIA </a> butter  to use this :<a href="https://github.com/wuwao1/wuwao1.github.io">mature configured repository</a></p></li><li><p>local deploy:</p><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs verilog">hexo clean&amp;hexo <span class="hljs-keyword">generate</span>&amp;hexo server<br></code></pre></td></tr></table></figure><p>localhost:<a href="http://localhost:4000/">http://localhost:4000</a></p></li><li><p>upload to github server </p><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs livecodeserver">//Just <span class="hljs-built_in">do</span> <span class="hljs-keyword">it</span> <span class="hljs-keyword">the</span> <span class="hljs-keyword">first</span> <span class="hljs-built_in">time</span> <br>npm install hexo-deployer-git <span class="hljs-comment">--save</span><br></code></pre></td></tr></table></figure><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs verilog">hexo clean&amp;hexo <span class="hljs-keyword">generate</span>&amp;hexo deploy<br></code></pre></td></tr></table></figure><p><a href="http://wuwao1.github.io/">git blog</a> </p></li></ol><blockquote><p>  Customize your style</p></blockquote><p>   configure file : <code>themes/aria/source/css/variables.styl</code> </p><ul><li>font-size = 24px </li><li>container-max-width = 80em     </li><li>corner-radius = 1em</li></ul>]]></content>
     
